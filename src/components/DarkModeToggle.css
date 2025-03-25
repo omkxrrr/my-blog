@@ -1,0 +1,18 @@
+.dark-mode-toggle {
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #1976d2; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    position: fixed; /* Fixed position */
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.dark-mode-toggle:hover {
+    background-color: #155a8a; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}

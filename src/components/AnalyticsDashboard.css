@@ -1,0 +1,51 @@
+.analytics-dashboard {
+    padding: 20px; /* Padding for the dashboard */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    margin: 20px 0; /* Space above and below the section */
+}
+
+.analytics-dashboard h2 {
+    color: #333; /* Dark color for the heading */
+    text-align: center; /* Center the heading */
+    font-family: 'Arial', sans-serif; /* Font style */
+}
+
+.stats-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space items evenly */
+    flex-wrap: wrap; /* Allow items to wrap */
+}
+
+.stat-card {
+    background-color: #ffffff; /* White background for each card */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding inside each card */
+    margin: 10px; /* Space between cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    flex: 1; /* Allow cards to grow */
+    min-width: 200px; /* Minimum width for each card */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+    text-align: center; /* Center text */
+}
+
+.stat-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.stat-icon {
+    font-size: 30px; /* Size of the icon */
+    margin-bottom: 10px; /* Space below the icon */
+    color: #1976d2; /* Color for the icon */
+}
+
+.stat-card h3 {
+    margin: 10px 0; /* Space above and below the heading */
+    color: #333; /* Dark color for the heading */
+}
+
+.stat-card p {
+    font-size: 24px; /* Font size for the statistic */
+    color: #555; /* Darker text color for contrast */
+}

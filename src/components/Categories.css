@@ -1,0 +1,73 @@
+.categories-section {
+    padding: 20px; /* Padding for the categories section */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    margin: 20px 0; /* Space above and below the section */
+}
+
+.categories-section h2 {
+    color: #333; /* Dark color for the heading */
+    text-align: center; /* Center the heading */
+    font-family: 'Arial', sans-serif; /* Font style */
+}
+
+.categories-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space items evenly */
+    flex-wrap: wrap; /* Allow items to wrap */
+}
+
+.category-group {
+    flex: auto; /* Allow items to grow */
+    min-width: 200px; /* Minimum width for each group */
+    margin: 40px; /* Space between groups */
+    background-color: #ffffff; /* White background for each group */
+    border-radius: 5px; /* Rounded corners */
+    padding: 50px; /* Padding inside each group */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.category-group:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.category-group h3 {
+    margin-bottom: 10px; /* Space below the heading */
+    color: #1976d2; /* Color for the category heading */
+}
+
+.category-group ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.category-group li {
+    margin: 5px 0; /* Space between list items */
+    color: #555; /* Darker text color for contrast */
+    font-size: 16px; /* Font size for list items */
+}
+
+.language-item {
+    margin-bottom: 15px; /* Space between language items */
+}
+
+.language-info {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+.progress-bar {
+    background-color: #e0e0e0; /* Light gray background for the progress bar */
+    border-radius: 5px; /* Rounded corners */
+    height: 10px; /* Height of the progress bar */
+    overflow: hidden; /* Hide overflow */
+    margin-top: 5px; /* Space above the progress bar */
+}
+
+.progress {
+    height: 100%; /* Full height of the progress bar */
+    transition: width 0.5s 
+}

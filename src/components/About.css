@@ -1,0 +1,171 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Use the new font */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Optional: Set a background color for the body */
+}
+
+.about-section {
+    background: #e5e1e1;
+    color: #333;
+    padding: 60px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 30px 19px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.card {
+    background: white; /* White background for the card */
+    border-radius: 12px;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.card-content {
+    /* display: flex; */
+    align-items: center; /* Align items vertically */
+    line-height: 1.4;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-right: 30px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #90a5d3;
+}
+
+.about-text {
+    max-width: 600px; /* Limit text width for better readability */
+}
+
+.about-text h3 {
+    /* margin: 0 0 10px; */
+    font-size: 1.8em;
+    color: #000000;
+}
+.lifestyle-section h3, .interests-section h3, .call-to-action h3 {
+    color: #333; /* Dark color for section headings */
+}
+
+.lifestyle-section p, .interests-section p, .call-to-action p {
+    line-height: 1.6;
+    color: #555; /* Darker text color for contrast */
+    font-size: 1.1em; /* Slightly larger font size */
+}
+
+.interests-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.interests-section li {
+    background: #f0f0f0; /* Light gray background for list items */
+    color: #333; /* Dark text color for list items */
+    padding: 12px;
+    margin: 6px 0; 
+}
+
+.social-media {
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Space above the social media section */
+}
+
+.social-buttons {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the buttons */
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+}
+
+.social-button {
+    background-color: #0077b5; /* Default background color for LinkedIn */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    margin: 5px; /* Space between buttons */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.1em; /* Slightly larger font size */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-button:hover {
+    transform: translateY(-3px); /* Lift effect on hover */
+}
+
+.linkedin {
+    background-color: #0077b5; /* LinkedIn color */
+}
+
+.github {
+    background-color: #333; /* GitHub color */
+}
+
+.twitter {
+    background-color: #1da1f2; /* Twitter color */
+}
+
+.instagram {
+    background-color: #e1306c; /* Instagram color */
+}
+
+.college-journey {
+    background: #e3f2fd; /* Light blue background for the college journey card */
+    border-radius: 12px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    margin: 20px 0; /* Space above and below the card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.college-journey h3 {
+    color: #1976d2; /* Dark blue color for the heading */
+    text-align: center; /* Center the heading */
+}
+
+.college-journey-content {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+}
+
+.college-item {
+    /* display: flex; Use flexbox for layout */
+    align-items: center;
+    align-items: center; /* Center items vertically */
+    margin: 15px 0; /* Space between items */
+    /* background: #ffffff; White background for each item */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside each item */
+    width: 90%; /* Full width */
+    box-shadow: inset 0px -1px 20px 11px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.college-item:hover {
+    transform: translateY(-3px); /* Lift effect on hover */
+}
+
+.college-icon {
+    font-size: 2em; /* Larger icon size */
+    margin-right: 15px; /* Space between icon and text */
+}
+
+.college-description h4 {
+    margin: auto; /* Remove default margin */
+    color: #333; /* Dark color for the college name */
+}
+
+.college-description p {
+    margin: 5px 0 0; /* Space above the paragraph */
+    color: #555; /* Darker text color for contrast */
+}

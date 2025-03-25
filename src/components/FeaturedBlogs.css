@@ -1,0 +1,44 @@
+.featured-blogs {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: inset 4px -9px 20px 7px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.featured-blogs h2 {
+    color: #333; /* Dark color for the heading */
+    text-align: center; /* Center the heading */
+    font-family: 'Arial', sans-serif; /* Font style */
+}
+
+.blogs-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space items evenly */
+    flex-wrap: wrap; /* Allow items to wrap */
+}
+
+.blog-card {
+    background-color: #ffffff; /* White background for each blog card */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside each card */
+    margin: 10px; /* Space between cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    width: 200px; /* Fixed width for each card */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.blog-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.blog-image {
+    width: 100%; /* Full width for the image */
+    border-radius: 5px; /* Rounded corners for the image */
+}
+
+.blog-title {
+    margin: 10px 0; /* Space above and below the title */
+    font-size: 18px; /* Font size for the title */
+    color: #333;
+}
