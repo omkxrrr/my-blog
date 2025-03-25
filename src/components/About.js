@@ -21,19 +21,19 @@ const About = () => {
                     <div className="social-media">
     <h3>Connect with Me</h3>
     <div className="social-buttons">
-        <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="social-button linkedin">
+        <a href="https://in.linkedin.com/in/omkar-mede-18961b258" target="_blank" rel="noopener noreferrer" className="social-button linkedin">
             🤝 LinkedIn
         </a>
-        <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer" className="social-button github">
+        <a href="https://github.com/omkxrrr" target="_blank" rel="noopener noreferrer" className="social-button github">
             🐱 GitHub
         </a>
         <a href="https://twitter.com/your-profile" target="_blank" rel="noopener noreferrer" className="social-button twitter">
             🐦 Twitter
         </a>
-        <a href="https://www.instagram.com/your-profile" target="_blank" rel="noopener noreferrer" className="social-button instagram">
+        <a href="https://www.instagram.com/omkxrrr1/" target="_blank" rel="noopener noreferrer" className="social-button instagram">
             📸 Instagram
         </a>
-        <a href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer" className="social-button youtube">
+        <a href="https://www.youtube.com/channel/UCuOi7e9Drelh1gTbGvBRN7g" target="_blank" rel="noopener noreferrer" className="social-button youtube">
             📺 YouTube
         </a>
     </div>
