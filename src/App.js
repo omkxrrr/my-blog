@@ -8,6 +8,7 @@ import './App.css'; // Import your CSS file for styling
 import DarkModeToggle from './components/DarkModeToggle';
 import AnalyticsDashboard from './components/AnalyticsDashboard';
 import Skills from './components/Skills';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const App = () => {
     return (
@@ -21,6 +22,7 @@ const App = () => {
                 <Categories />
                 <Skills/>
                 <AnalyticsDashboard/>
+                <SpeedInsights/>
                 
             </main>
         </div>

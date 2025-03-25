@@ -8,7 +8,7 @@ body {
 .about-section {
     background: #e5e1e1;
     color: #333;
-    padding: 60px;
+    /* padding: 60px; */
     border-radius: 12px;
     box-shadow: 3px 3px 30px 19px rgba(0, 0, 0, 0.2);
     margin: 20px auto;

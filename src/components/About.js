@@ -6,7 +6,7 @@ import profileImage from '../assets/profile.jpg'; // Import the image
 const About = () => {
     return (
         <section id="about" className="about-section">
-            <h2>About Me</h2>
+            {/* <h2>About Me</h2> */}
             <div className="card">
                 <div className="card-content">
                     <img src={profileImage} alt="Omkar D. Mede" className="profile-pic" />
